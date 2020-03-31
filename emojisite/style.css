@@ -1,0 +1,48 @@
+body {
+  background: white;
+  background-image: url(img/bg.png);
+  background-repeat: auto;
+  background-size: 120px;
+}
+ img{
+    width: 250px;
+    height: 250px;
+  }
+.emoji{
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 1000px;
+  vertical-align: center;
+  background-image: url(img/websitepg1.png); 
+  background-size: contain;
+  grid-template-columns: 250px 250px;
+  grid-row: auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+}
+  .devil{
+   z-index: 10;
+   width: 250px;
+   height: 250px;
+   border: 1px;
+  }
+ 
+  .ghost{
+   z-index: 10;
+   width: 250px;
+   height: 250px;
+  }
+  .smile{
+   z-index: 10;
+   width: 250px;
+   height: 250px;
+  }
+  .bird{
+   z-index: 10;
+   width: 250px;
+   height: 250px;
+  }
+

@@ -1,0 +1,41 @@
+*{
+  font-family: 'Courier New', sans-serif;
+  text-decoration: none;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+.info{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.name{
+  width: 100%;
+  height: 10vh;
+  font-size: 10vw;
+}
+.course{
+  margin-top: 6vw;
+  font-size: 2vw;
+}
+.contact{
+  font-size: 2vw;
+}
+.projectsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 3vh;
+}
+.item{
+  font-size: 10vw;
+  padding: 10px;
+}
+
+ 
